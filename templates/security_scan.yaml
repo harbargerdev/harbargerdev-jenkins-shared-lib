@@ -1,0 +1,7 @@
+template:
+  name: security_scan
+  steps:
+    - shell: |
+        echo "Running dummy security scan (mock)..."
+        echo "Security Scan: PASS (mock)" > security_report.txt
+

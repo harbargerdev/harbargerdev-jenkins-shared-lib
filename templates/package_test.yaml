@@ -1,0 +1,6 @@
+template:
+  name: package_test
+  steps:
+    - shell: mvn package
+    - shell: mvn test
+

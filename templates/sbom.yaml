@@ -1,0 +1,7 @@
+template:
+  name: sbom
+  steps:
+    - shell: |
+        echo '{ "sbom": "mock" }' > sbom.json
+        echo "Generating SBOM (mock)..."
+

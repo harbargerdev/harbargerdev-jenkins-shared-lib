@@ -1,0 +1,5 @@
+template:
+  name: compile
+  steps:
+    - shell: mvn compile
+

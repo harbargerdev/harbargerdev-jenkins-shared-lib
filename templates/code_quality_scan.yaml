@@ -1,0 +1,7 @@
+template:
+  name: code_quality_scan
+  steps:
+    - shell: |
+        echo "Running dummy code quality scan (mock)..."
+        echo "Code Quality: PASS (mock)" > code_quality_report.txt
+
