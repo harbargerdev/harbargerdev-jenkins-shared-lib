@@ -1,0 +1,10 @@
+pipeline:
+  agent:
+    label: any
+  stages:
+    - stage: Build
+      steps:
+        - shell: echo "Building project"
+    - stage: Test
+      steps:
+        - shell: echo "Running tests"
