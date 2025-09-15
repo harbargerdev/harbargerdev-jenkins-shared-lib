@@ -1,0 +1,28 @@
+# Build and dependency related files
+.gradle/
+build/
+out/
+target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+lib/
+
+# IDE specific files
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
+
+# Jenkins specific files (if applicable, e.g., for local testing setup)
+workspace/
+htmlreport/
