@@ -1,0 +1,6 @@
+template:
+  name: quality_security_scans
+  parallel:
+    - template: code_quality_scan
+    - template: security_scan
+

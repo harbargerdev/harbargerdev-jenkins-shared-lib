@@ -1,0 +1,11 @@
+template:
+  name: preflight
+  steps:
+    - shell: |
+        if [ ! -f buildArgs.json ]; then
+          echo "Pre-flight check failed: buildArgs.json not found in workspace root."
+          exit 1
+        else
+          echo "Pre-flight check passed: buildArgs.json found."
+        fi
+
